@@ -6,16 +6,20 @@ Easier way to setup selectable grids
 
 ```sh
 npm install react-native-interactive-grid
+yarn add react-native-interactive-grid
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-interactive-grid';
+import { InteractiveGrid } from 'react-native-interactive-grid';
 
-// ...
 
-const result = await multiply(3, 7);
+<View>
+  <InteractiveGrid
+    TODO
+  />
+</View>
 ```
 
 ## Contributing

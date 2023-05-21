@@ -1,1 +1,5 @@
-it.todo('write a test');
+describe('Interactive Grid', () => {
+  it('loads', () => {
+    // testing
+  });
+});
