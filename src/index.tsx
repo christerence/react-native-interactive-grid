@@ -74,11 +74,11 @@ export function InteractiveGrid({
         if (existingIndex >= 0) {
           ids.splice(existingIndex, 1);
         } else {
-          if (selectedIds.length < maxSelect) {
+          if (ids.length < maxSelect) {
             ids.push(gridItemId);
           }
         }
-        onSelect(selectedIds);
+        onSelect(ids);
         return [...ids];
       });
     },
