@@ -80,10 +80,10 @@ export function InteractiveGrid({
           }
         }
         onSelect(selectedIds);
-        return ids;
+        return [...ids];
       });
     },
-    [maxSelect, onSelect, selectedIds]
+    [maxSelect, onSelect]
   );
 
   useEffect(() => {
