@@ -38,7 +38,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#adadad',
   },
   requiredContentBox: {
-    flex: 1,
     aspectRatio: 1,
   },
   contentBoxSelected: {
