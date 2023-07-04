@@ -86,6 +86,10 @@ export function InteractiveGrid({
   );
 
   useEffect(() => {
+    setSelectedIds([...(defaultSelectedIds ?? [])]);
+  }, [defaultSelectedIds]);
+
+  useEffect(() => {
     setData(inputData);
   }, [inputData]);
 
